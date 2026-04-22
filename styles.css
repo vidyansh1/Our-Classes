@@ -134,8 +134,8 @@ select {
 }
 
 .brand-logo-image {
-  width: auto;
-  height: auto;
+  width: 70px;
+  height: 95px;
   object-fit: cover;
   border-radius: inherit;
 }
@@ -144,19 +144,19 @@ select {
   display: grid;
   place-items: center;
   width: 100%;
-  height: 100%;
+  height: 200%;
 }
 
-.brand-copy {
+.brand-name {
   display: flex;
   flex-direction: column;
 }
 
-.brand-copy strong {
+.brand-name strong {
   font-size: 1.05rem;
 }
 
-.brand-copy small {
+.brand-name small {
   color: var(--muted);
 }
 
@@ -693,12 +693,12 @@ select {
     width: 100%;
   }
 
-  .brand-copy strong {
-    font-size: 0.98rem;
+  .brand-name strong {
+    font-size: 1.0rem;
   }
 
-  .brand-copy small {
-    font-size: 0.82rem;
+  .brand-name small {
+    font-size: 1.0rem;
   }
 }
 
@@ -945,7 +945,7 @@ body {
 .courses-section {
   background:
     linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
-    url("https://ownclasses.com/wp-content/themes/digital-online-courses/assets/images/course-banner.png") center top / cover;
+
 }
 
 .wp-section-title,
@@ -1201,7 +1201,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .hero-proof span,
@@ -1385,12 +1385,8 @@ body {
   font-size: 1.7rem;
 }
 
-.about-main {
-  transform: rotate(-1deg);
-}
 
 .philosophy-card.about-card {
-  transform: rotate(1deg);
   background: #fff8ee;
 }
 
